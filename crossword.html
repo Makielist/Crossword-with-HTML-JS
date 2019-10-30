@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <title>TTS-Firmannudin</title>
+        <style type="text/css">
+            .kotak {
+            width : 30px;
+            height :30px;
+            border : 1px solid black;
+            text-align : center;
+            border-radius: 5px;
+            font-family: cursive;
+            
+            
+            }
+            .betul{
+            width : 30px;
+            height :30px;
+            border : 1px solid green;
+            color: green;
+            text-align:center;
+            border-radius: 5px;
+            font-family: cursive;
+            }
+            .salah{
+            width : 30px;
+            height :30px;
+            border : 1px solid red;
+            color: red;
+            text-align:center;
+            border-radius: 5px;
+            font-family: cursive;
+            }
+			
+        </style>
+    </head>
+    <body>
+        <div class="row text-center">
+            <div class="col">
+                    <p style="border: solid 1px #aaa; background:dodgerblue; padding: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px; margin: 0; text-align: center; line-height: 23px; color: white; font-size: 25px">Teka Teki Silang</p>
+            </div>	
+        </div> 
+        <div class="container">
+            <div class="row" style="background:lavender; border-radius: 15px; padding: 5px;">
+                <div class="col-md" style="background:  rgb(193, 213, 251); border-radius: 15px; padding: 5px;">
+                        <table>
+                            <tr>
+                                <td colspan="6"></td>
+                                <td><input type="text" id="t1"  name="" class="kotak" placeholder="2" maxlength="1"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"></td>
+                                <td><input type="text" id="t2"  name="" class="kotak" placeholder="1" maxlength="1"></td>
+                                <td colspan="2"></td>
+                                <td><input type="text" id="t3"  name="" class="kotak" maxlength="1"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"></td>
+                                <td><input type="text" id="t4"  name="" class="kotak" maxlength="1" ></td>
+                                <td colspan="2"></td>
+                                <td><input type="text" id="t5"  name="" class="kotak" maxlength="1"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"></td>
+                                <td><input type="text" id="t6"  name="" class="kotak" maxlength="1" ></td>
+                                <td colspan="2"></td>
+                                <td><input type="text" id="t7"  name="" class="kotak" maxlength="1"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"></td>
+                                <td><input type="text" id="t8"  name="" class="kotak" placeholder="2" maxlength="1"></td>
+                                <td><input type="text" id="t9"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t10"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t11"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t12"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t13"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t14"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t15"  name="" class="kotak" maxlength="1"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" id="t16"  name="" class="kotak" placeholder="1" maxlength="1"></td>
+                                <td><input type="text" id="t17"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t18"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t19"  name="" class="kotak" maxlength="1"></td>    
+                                <td colspan="2"></td>
+                                <td><input type="text" id="t20"  name="" class="kotak" maxlength="1" maxlength="1"></td>    
+                                <td colspan="5"></td>
+                                <td><input type="text" id="t21"  name="" class="kotak" placeholder="4" maxlength="1"></td>                                
+                            </tr>
+                            <tr>
+                                <td colspan="3"></td>
+                                <td><input type="text" id="t22"  name="" class="kotak" maxlength="1"></td>    
+                                <td colspan="1"></td>
+                                <td><input type="text" id="t23"  name="" class="kotak" placeholder="3" maxlength="1"></td>
+                                <td><input type="text" id="t24"  name="" class="kotak" maxlength="1"></td>   
+                                <td><input type="text" id="t25"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t26"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t27"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t28"  name="" class="kotak" placeholder="3" maxlength="1"></td>
+                                <td><input type="text" id="t29"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t30"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t31"  name="" class="kotak" maxlength="1"></td>     
+                            </tr>
+                            <tr>
+                                <td colspan="6"></td>
+                                <td><input type="text" id="t32"  name="" class="kotak" maxlength="1"></td>
+                                <td colspan="3"></td>
+                                <td><input type="text" id="t33"  name="" class="kotak" maxlength="1"></td>
+                                <td colspan="1"></td>
+                                <td><input type="text" id="t34"  name="" class="kotak" maxlength="1"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="5"></td>
+                                <td><input type="text" id="t35"  name="" class="kotak" placeholder="4" maxlength="1"></td>
+                                <td><input type="text" id="t36"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t37"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t38"  name="" class="kotak" maxlength="1"></td>
+                                <td colspan="1"></td>
+                                <td><input type="text" id="t39"  name="" class="kotak" maxlength="1"></td>
+                                <td colspan="1"></td>
+                                <td><input type="text" id="t40"  name="" class="kotak" maxlength="1"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6"></td>
+                                <td><input type="text" id="t41"  name="" class="kotak" maxlength="1"></td>
+                                <td colspan="5"></td>
+                                <td><input type="text" id="t42"  name="" class="kotak" maxlength="1"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="8"></td>
+                                <td><input type="text" id="t43"  name="" class="kotak" placeholder="5" maxlength="1"></td>
+                                <td colspan="3"></td>
+                                <td><input type="text" id="t44"  name="" class="kotak" maxlength="1"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="8"></td>
+                                <td><input type="text" id="t45"  name="" class="kotak" placeholder="5" maxlength="1"></td>
+                                <td><input type="text" id="t46"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t47"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t48"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t49"  name="" class="kotak" maxlength="1"></td>
+                                <td><input type="text" id="t50"  name="" class="kotak" maxlength="1"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="8"></td>
+                                <td><input type="text" id="t51"  name="" class="kotak" maxlength="1"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="8"></td>
+                                <td><input type="text" id="t52"  name="" class="kotak" maxlength="1"></td>
+                            </tr>
+                        </table>
+                        <br>
+                        <div >
+                            <button class="btn btn-primary" onclick="cek_kebenaran()">Cek Kebenaran</button>     
+                            <button class="btn btn-primary" onClick=" cek_score(); ">Cek Score</button>  
+                            <button class="btn btn-primary" onClick=" window.location.reload(); ">Reset</button>                    
+                            <p style="border: solid 1px #aaa; background:lavender; padding: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px; margin: 0; text-align: center; line-height: 15px; color: black; font-size: 20px" id="demo">Score Anda = 0</p>
+                            </div>    
+                        <br>
+                </div>
+                <div class="col-md">
+                        <p style="border: solid 1px #aaa; background:lavender; padding: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px; margin: 0; text-align: center; line-height: 15px; color: black; font-size: 20px">Mendatar</p>
+                        <div style="background:rgb(193, 213, 251); border-radius: 10px; padding: 5px; padding-left: 10px;">
+                        <a><b>1.</b> 8 bit</a><br>
+                        <a><b>2.</b> Tombol Untuk Uppercase</a><br>
+                        <a><b>3.</b> Manusia Sebagai Pemakain Komputer</a><br>
+                        <a><b>4.</b> Joint Photoographic Expert Group</a><br>
+                        <a><b>5.</b> 1 dan 0</a><br>
+                        
+                        
+                    </div>
+                    <br>
+                        <p style="border: solid 1px #aaa; background:lavender; padding: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px; margin: 0; text-align: center; line-height: 15px; color: black; font-size: 20px">Menurun</p>
+                        <div style="background: rgb(193, 213, 251); border-radius: 10px; padding: 5px; padding-left: 10px;">
+                        <a><b>1.</b> Salah Satu Software Pembuat Animasi</a><br>
+                        <a><b>2.</b> Bahasa Script interpreter untuk menciptakan isi yang aktif dalam hamalam web</a><br>
+                        <a><b>3.</b> World Wide Web</a><br>
+                        <a><b>4.</b> Digunakan untuk mengakses world wide web</a><br>
+                        <a><b>5.</b> Sebuah software yang bertujuan untuk mengatur dan mengorganisisr system Database</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div>
+			
+		</div>
+
+        <script type="text/javascript">
+            function cek_kebenaran(){
+                var t1 = document.getElementById("t1").value;
+                var t2 = document.getElementById("t2").value;
+                var t3 = document.getElementById("t3").value;
+                var t4 = document.getElementById("t4").value;
+                var t5 = document.getElementById("t5").value;
+                var t6 = document.getElementById("t6").value;
+                var t7 = document.getElementById("t7").value;
+                var t8 = document.getElementById("t8").value;
+                var t9 = document.getElementById("t9").value;
+                var t10 = document.getElementById("t10").value;
+                var t11 = document.getElementById("t11").value;
+                var t12 = document.getElementById("t12").value;
+                var t13 = document.getElementById("t13").value;
+                var t14 = document.getElementById("t14").value;
+                var t15 = document.getElementById("t15").value;
+                var t16 = document.getElementById("t16").value;
+                var t17 = document.getElementById("t17").value;
+                var t18 = document.getElementById("t18").value;
+                var t19 = document.getElementById("t19").value;
+                var t20 = document.getElementById("t20").value;
+                var t21 = document.getElementById("t21").value;
+                var t22 = document.getElementById("t22").value;
+                var t23 = document.getElementById("t23").value;
+                var t24 = document.getElementById("t24").value;
+                var t25 = document.getElementById("t25").value;
+                var t26 = document.getElementById("t26").value;
+                var t27 = document.getElementById("t27").value;
+                var t28 = document.getElementById("t28").value;
+                var t29 = document.getElementById("t29").value;
+                var t30 = document.getElementById("t30").value;
+                var t31 = document.getElementById("t31").value;
+                var t32 = document.getElementById("t32").value;
+                var t33 = document.getElementById("t33").value;
+                var t34 = document.getElementById("t34").value;
+                var t35 = document.getElementById("t35").value;
+                var t36 = document.getElementById("t36").value;
+                var t37 = document.getElementById("t37").value;
+                var t38 = document.getElementById("t38").value;
+                var t39 = document.getElementById("t39").value;
+                var t40 = document.getElementById("t40").value;
+                var t41 = document.getElementById("t41").value;
+                var t42 = document.getElementById("t42").value;
+                var t43 = document.getElementById("t43").value;
+                var t44 = document.getElementById("t44").value;
+                var t45 = document.getElementById("t45").value;
+                var t46 = document.getElementById("t46").value;
+                var t47 = document.getElementById("t47").value;
+                var t48 = document.getElementById("t48").value;
+                var t49 = document.getElementById("t49").value;
+                var t50 = document.getElementById("t50").value;
+                var t51 = document.getElementById("t51").value;
+                var t52 = document.getElementById("t52").value;
+
+                if(t1=="J" || t1=="j"){
+                    document.getElementById("t1").classList.remove("kotak");
+                    document.getElementById("t1").classList.remove("salah");
+                    document.getElementById("t1").classList.add("betul");                  
+                } else {
+                    document.getElementById("t1").classList.remove("kotak");
+                    document.getElementById("t1").classList.remove("betul");
+                    document.getElementById("t1").classList.add("salah");
+                }
+                if(t2=="A" || t2=="a"){
+                    document.getElementById("t2").classList.remove("kotak");
+                    document.getElementById("t2").classList.remove("salah");
+                    document.getElementById("t2").classList.add("betul");                  
+                } else {
+                    document.getElementById("t2").classList.remove("kotak");
+                    document.getElementById("t2").classList.remove("betul");
+                    document.getElementById("t2").classList.add("salah");
+                }
+                if(t3=="A" || t3=="a"){
+                    document.getElementById("t3").classList.remove("kotak");
+                    document.getElementById("t3").classList.remove("salah");
+                    document.getElementById("t3").classList.add("betul");
+                   
+                } else {
+                    document.getElementById("t3").classList.remove("kotak");
+                    document.getElementById("t3").classList.remove("betul");
+                    document.getElementById("t3").classList.add("salah");
+                }
+                if(t4=="L" || t4=="l"){
+                    document.getElementById("t4").classList.remove("kotak");
+                    document.getElementById("t4").classList.remove("salah");
+                    document.getElementById("t4").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t4").classList.remove("kotak");
+                    document.getElementById("t4").classList.remove("betul");
+                    document.getElementById("t4").classList.add("salah");
+                }
+                if(t5=="V" || t5=="v"){
+                    document.getElementById("t5").classList.remove("kotak");
+                    document.getElementById("t5").classList.remove("salah");
+                    document.getElementById("t5").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t5").classList.remove("kotak");
+                    document.getElementById("t5").classList.remove("betul");
+                    document.getElementById("t5").classList.add("salah");
+                }
+                if(t6=="I" || t6=="i"){
+                    document.getElementById("t6").classList.remove("kotak");
+                    document.getElementById("t6").classList.remove("salah");
+                    document.getElementById("t6").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t6").classList.remove("kotak");
+                    document.getElementById("t6").classList.remove("betul");
+                    document.getElementById("t6").classList.add("salah");
+                }
+                if(t7=="A" || t7=="a"){
+                    document.getElementById("t7").classList.remove("kotak");
+                    document.getElementById("t7").classList.remove("salah");
+                    document.getElementById("t7").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t7").classList.remove("kotak");
+                    document.getElementById("t7").classList.remove("betul");
+                    document.getElementById("t7").classList.add("salah");
+                }
+                if(t8=="C" || t8=="c"){
+                    document.getElementById("t8").classList.remove("kotak");
+                    document.getElementById("t8").classList.remove("salah");
+                    document.getElementById("t8").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t8").classList.remove("kotak");
+                    document.getElementById("t8").classList.remove("betul");
+                    document.getElementById("t8").classList.add("salah");
+                }
+                if(t9=="A" || t9=="a"){
+                    document.getElementById("t9").classList.remove("kotak");
+                    document.getElementById("t9").classList.remove("salah");
+                    document.getElementById("t9").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t9").classList.remove("kotak");
+                    document.getElementById("t9").classList.remove("betul");
+                    document.getElementById("t9").classList.add("salah");
+                }
+                if(t10=="P" || t10=="p"){
+                    document.getElementById("t10").classList.remove("kotak");
+                    document.getElementById("t10").classList.remove("salah");
+                    document.getElementById("t10").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t10").classList.remove("kotak");
+                    document.getElementById("t10").classList.remove("betul");
+                    document.getElementById("t10").classList.add("salah");
+                }
+                if(t11=="S" || t11=="s"){
+                    document.getElementById("t11").classList.remove("kotak");
+                    document.getElementById("t11").classList.remove("salah");
+                    document.getElementById("t11").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t11").classList.remove("kotak");
+                    document.getElementById("t11").classList.remove("betul");
+                    document.getElementById("t11").classList.add("salah");
+                }
+                if(t12=="L" || t12=="l"){
+                    document.getElementById("t12").classList.remove("kotak");
+                    document.getElementById("t12").classList.remove("salah");
+                    document.getElementById("t12").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t12").classList.remove("kotak");
+                    document.getElementById("t12").classList.remove("betul");
+                    document.getElementById("t12").classList.add("salah");
+                }
+                if(t13=="O" || t13=="o"){
+                    document.getElementById("t13").classList.remove("kotak");
+                    document.getElementById("t13").classList.remove("salah");
+                    document.getElementById("t13").classList.add("betul");
+                } else {
+                    document.getElementById("t13").classList.remove("kotak");
+                    document.getElementById("t13").classList.remove("betul");
+                    document.getElementById("t13").classList.add("salah");
+                }
+                if(t14=="C" || t14=="c"){
+                    document.getElementById("t14").classList.remove("kotak");
+                    document.getElementById("t14").classList.remove("salah");
+                    document.getElementById("t14").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t14").classList.remove("kotak");
+                    document.getElementById("t14").classList.remove("betul");
+                    document.getElementById("t14").classList.add("salah");
+                }
+                if(t15=="K" || t15=="k"){
+                    document.getElementById("t15").classList.remove("kotak");
+                    document.getElementById("t15").classList.remove("salah");
+                    document.getElementById("t15").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t15").classList.remove("kotak");
+                    document.getElementById("t15").classList.remove("betul");
+                    document.getElementById("t15").classList.add("salah");
+                }
+                if(t16=="B" || t16=="b"){
+                    document.getElementById("t16").classList.remove("kotak");
+                    document.getElementById("t16").classList.remove("salah");
+                    document.getElementById("t16").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t16").classList.remove("kotak");
+                    document.getElementById("t16").classList.remove("betul");
+                    document.getElementById("t16").classList.add("salah");
+                }
+                if(t17=="Y" || t17=="y"){
+                    document.getElementById("t17").classList.remove("kotak");
+                    document.getElementById("t17").classList.remove("salah");
+                    document.getElementById("t17").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t17").classList.remove("kotak");
+                    document.getElementById("t17").classList.remove("betul");
+                    document.getElementById("t17").classList.add("salah");
+                }
+                if(t18=="T" || t18=="t"){
+                    document.getElementById("t18").classList.remove("kotak");
+                    document.getElementById("t18").classList.remove("salah");
+                    document.getElementById("t18").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t18").classList.remove("kotak");
+                    document.getElementById("t18").classList.remove("betul");
+                    document.getElementById("t18").classList.add("salah");
+                }
+                if(t19=="E" || t19=="e"){
+                    document.getElementById("t19").classList.remove("kotak");
+                    document.getElementById("t19").classList.remove("salah");
+                    document.getElementById("t19").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t19").classList.remove("kotak");
+                    document.getElementById("t19").classList.remove("betul");
+                    document.getElementById("t19").classList.add("salah");
+                }
+				if(t20=="C" || t20=="c"){
+                    document.getElementById("t20").classList.remove("kotak");
+                    document.getElementById("t20").classList.remove("salah");
+                    document.getElementById("t20").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t20").classList.remove("kotak");
+                    document.getElementById("t20").classList.remove("betul");
+                    document.getElementById("t20").classList.add("salah");
+                }
+                if(t21=="B" || t21=="b"){
+                    document.getElementById("t21").classList.remove("kotak");
+                    document.getElementById("t21").classList.remove("salah");
+                    document.getElementById("t21").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t21").classList.remove("kotak");
+                    document.getElementById("t21").classList.remove("betul");
+                    document.getElementById("t21").classList.add("salah");
+                }
+                if(t22=="3" || t22=="3"){
+                    document.getElementById("t22").classList.remove("kotak");
+                    document.getElementById("t22").classList.remove("salah");
+                    document.getElementById("t22").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t22").classList.remove("kotak");
+                    document.getElementById("t22").classList.remove("betul");
+                    document.getElementById("t22").classList.add("salah");
+                }
+                if(t23=="B" || t23=="b"){
+                    document.getElementById("t23").classList.remove("kotak");
+                    document.getElementById("t23").classList.remove("salah");
+                    document.getElementById("t23").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t23").classList.remove("kotak");
+                    document.getElementById("t23").classList.remove("betul");
+                    document.getElementById("t23").classList.add("salah");
+                }
+                if(t24=="R" || t24=="r"){
+                    document.getElementById("t24").classList.remove("kotak");
+                    document.getElementById("t24").classList.remove("salah");
+                    document.getElementById("t24").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t24").classList.remove("kotak");
+                    document.getElementById("t24").classList.remove("betul");
+                    document.getElementById("t24").classList.add("salah");
+                }
+                if(t25=="A" || t25=="a"){
+                    document.getElementById("t25").classList.remove("kotak");
+                    document.getElementById("t25").classList.remove("salah");
+                    document.getElementById("t25").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t25").classList.remove("kotak");
+                    document.getElementById("t25").classList.remove("betul");
+                    document.getElementById("t25").classList.add("salah");
+                }
+                if(t26=="I" || t26=="i"){
+                    document.getElementById("t26").classList.remove("kotak");
+                    document.getElementById("t26").classList.remove("salah");
+                    document.getElementById("t26").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t26").classList.remove("kotak");
+                    document.getElementById("t26").classList.remove("betul");
+                    document.getElementById("t26").classList.add("salah");
+                }
+                if(t27=="N" || t27=="n"){
+                    document.getElementById("t27").classList.remove("kotak");
+                    document.getElementById("t27").classList.remove("salah");
+                    document.getElementById("t27").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t27").classList.remove("kotak");
+                    document.getElementById("t27").classList.remove("betul");
+                    document.getElementById("t27").classList.add("salah");
+                }
+                if(t28=="W" || t28=="w"){
+                    document.getElementById("t28").classList.remove("kotak");
+                    document.getElementById("t28").classList.remove("salah");
+                    document.getElementById("t28").classList.add("betul");                  
+                } else {
+                    document.getElementById("t28").classList.remove("kotak");
+                    document.getElementById("t28").classList.remove("betul");
+                    document.getElementById("t28").classList.add("salah");
+                }
+                if(t29=="A" || t29=="a"){
+                    document.getElementById("t29").classList.remove("kotak");
+                    document.getElementById("t29").classList.remove("salah");
+                    document.getElementById("t29").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t29").classList.remove("kotak");
+                    document.getElementById("t29").classList.remove("betul");
+                    document.getElementById("t29").classList.add("salah");
+                }
+                if(t30=="R" || t30=="r"){
+                    document.getElementById("t30").classList.remove("kotak");
+                    document.getElementById("t30").classList.remove("salah");
+                    document.getElementById("t30").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t30").classList.remove("kotak");
+                    document.getElementById("t30").classList.remove("betul");
+                    document.getElementById("t30").classList.add("salah");
+                }
+                if(t31=="E" || t31=="e"){
+                    document.getElementById("t31").classList.remove("kotak");
+                    document.getElementById("t31").classList.remove("salah");
+                    document.getElementById("t31").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t31").classList.remove("kotak");
+                    document.getElementById("t31").classList.remove("betul");
+                    document.getElementById("t31").classList.add("salah");
+                }
+                if(t32=="I" || t32=="i"){
+                    document.getElementById("t32").classList.remove("kotak");
+                    document.getElementById("t32").classList.remove("salah");
+                    document.getElementById("t32").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t32").classList.remove("kotak");
+                    document.getElementById("t32").classList.remove("betul");
+                    document.getElementById("t32").classList.add("salah");
+                }
+                if(t33=="W" || t33=="w"){
+                    document.getElementById("t33").classList.remove("kotak");
+                    document.getElementById("t33").classList.remove("salah");
+                    document.getElementById("t33").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t33").classList.remove("kotak");
+                    document.getElementById("t33").classList.remove("betul");
+                    document.getElementById("t33").classList.add("salah");
+                }
+                if(t34=="O" || t34=="o"){
+                    document.getElementById("t34").classList.remove("kotak");
+                    document.getElementById("t34").classList.remove("salah");
+                    document.getElementById("t34").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t34").classList.remove("kotak");
+                    document.getElementById("t34").classList.remove("betul");
+                    document.getElementById("t34").classList.add("salah");
+                }
+                if(t35=="J" || t35=="j"){
+                    document.getElementById("t35").classList.remove("kotak");
+                    document.getElementById("t35").classList.remove("salah");
+                    document.getElementById("t35").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t35").classList.remove("kotak");
+                    document.getElementById("t35").classList.remove("betul");
+                    document.getElementById("t35").classList.add("salah");
+                }
+                if(t36=="P" || t36=="p"){
+                    document.getElementById("t36").classList.remove("kotak");
+                    document.getElementById("t36").classList.remove("salah");
+                    document.getElementById("t36").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t36").classList.remove("kotak");
+                    document.getElementById("t36").classList.remove("betul");
+                    document.getElementById("t36").classList.add("salah");
+                }
+                if(t37=="E" || t37=="e"){
+                    document.getElementById("t37").classList.remove("kotak");
+                    document.getElementById("t37").classList.remove("salah");
+                    document.getElementById("t37").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t37").classList.remove("kotak");
+                    document.getElementById("t37").classList.remove("betul");
+                    document.getElementById("t37").classList.add("salah");
+                }
+                if(t38=="G" || t38=="g"){
+                    document.getElementById("t38").classList.remove("kotak");
+                    document.getElementById("t38").classList.remove("salah");
+                    document.getElementById("t38").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t38").classList.remove("kotak");
+                    document.getElementById("t38").classList.remove("betul");
+                    document.getElementById("t38").classList.add("salah");
+                }
+                if(t39=="W" || t39=="w"){
+                    document.getElementById("t39").classList.remove("kotak");
+                    document.getElementById("t39").classList.remove("salah");
+                    document.getElementById("t39").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t39").classList.remove("kotak");
+                    document.getElementById("t39").classList.remove("betul");
+                    document.getElementById("t39").classList.add("salah");
+                }
+                if(t40=="W" || t40=="w"){
+                    document.getElementById("t40").classList.remove("kotak");
+                    document.getElementById("t40").classList.remove("salah");
+                    document.getElementById("t40").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t40").classList.remove("kotak");
+                    document.getElementById("t40").classList.remove("betul");
+                    document.getElementById("t40").classList.add("salah");
+                }
+                if(t41=="T" || t41=="t"){
+                    document.getElementById("t41").classList.remove("kotak");
+                    document.getElementById("t41").classList.remove("salah");
+                    document.getElementById("t41").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t41").classList.remove("kotak");
+                    document.getElementById("t41").classList.remove("betul");
+                    document.getElementById("t41").classList.add("salah");
+                }
+                if(t42=="S" || t42=="s"){
+                    document.getElementById("t42").classList.remove("kotak");
+                    document.getElementById("t42").classList.remove("salah");
+                    document.getElementById("t42").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t42").classList.remove("kotak");
+                    document.getElementById("t42").classList.remove("betul");
+                    document.getElementById("t42").classList.add("salah");
+                }
+                if(t43=="D" || t43=="d"){
+                    document.getElementById("t43").classList.remove("kotak");
+                    document.getElementById("t43").classList.remove("salah");
+                    document.getElementById("t43").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t43").classList.remove("kotak");
+                    document.getElementById("t43").classList.remove("betul");
+                    document.getElementById("t43").classList.add("salah");
+                }
+                if(t44=="E" || t44=="e"){
+                    document.getElementById("t44").classList.remove("kotak");
+                    document.getElementById("t44").classList.remove("salah");
+                    document.getElementById("t44").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t44").classList.remove("kotak");
+                    document.getElementById("t44").classList.remove("betul");
+                    document.getElementById("t44").classList.add("salah");
+                }
+                if(t45=="B" || t45=="b"){
+                    document.getElementById("t45").classList.remove("kotak");
+                    document.getElementById("t45").classList.remove("salah");
+                    document.getElementById("t45").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t45").classList.remove("kotak");
+                    document.getElementById("t45").classList.remove("betul");
+                    document.getElementById("t45").classList.add("salah");
+                }
+                if(t46=="I" || t46=="i"){
+                    document.getElementById("t46").classList.remove("kotak");
+                    document.getElementById("t46").classList.remove("salah");
+                    document.getElementById("t46").classList.add("betul");
+                   
+                } else {
+                    document.getElementById("t46").classList.remove("kotak");
+                    document.getElementById("t46").classList.remove("betul");
+                    document.getElementById("t46").classList.add("salah");
+                }
+                if(t47=="N" || t47=="n"){
+                    document.getElementById("t47").classList.remove("kotak");
+                    document.getElementById("t47").classList.remove("salah");
+                    document.getElementById("t47").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t47").classList.remove("kotak");
+                    document.getElementById("t47").classList.remove("betul");
+                    document.getElementById("t47").classList.add("salah");
+                }
+                if(t48=="A" || t48=="a"){
+                    document.getElementById("t48").classList.remove("kotak");
+                    document.getElementById("t48").classList.remove("salah");
+                    document.getElementById("t48").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t48").classList.remove("kotak");
+                    document.getElementById("t48").classList.remove("betul");
+                    document.getElementById("t48").classList.add("salah");
+                }
+                if(t49=="R" || t49=="r"){
+                    document.getElementById("t49").classList.remove("kotak");
+                    document.getElementById("t49").classList.remove("salah");
+                    document.getElementById("t49").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t49").classList.remove("kotak");
+                    document.getElementById("t49").classList.remove("betul");
+                    document.getElementById("t49").classList.add("salah");
+                }
+                if(t50=="Y" || t50=="y"){
+                    document.getElementById("t50").classList.remove("kotak");
+                    document.getElementById("t50").classList.remove("salah");
+                    document.getElementById("t50").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t50").classList.remove("kotak");
+                    document.getElementById("t50").classList.remove("betul");
+                    document.getElementById("t50").classList.add("salah");
+                }
+                if(t51=="M" || t51=="m"){
+                    document.getElementById("t51").classList.remove("kotak");
+                    document.getElementById("t51").classList.remove("salah");
+                    document.getElementById("t51").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t51").classList.remove("kotak");
+                    document.getElementById("t51").classList.remove("betul");
+                    document.getElementById("t51").classList.add("salah");
+                }
+                if(t52=="S" || t52=="s"){
+                    document.getElementById("t52").classList.remove("kotak");
+                    document.getElementById("t52").classList.remove("salah");
+                    document.getElementById("t52").classList.add("betul");
+                    
+                } else {
+                    document.getElementById("t52").classList.remove("kotak");
+                    document.getElementById("t52").classList.remove("betul");
+                    document.getElementById("t52").classList.add("salah");
+                }
+                
+
+                }
+        </script>
+
+        <script type="text/javascript">
+        var score=0;
+        function cek_score(){
+                score=0;
+                var t1 = document.getElementById("t1").value;
+                var t2 = document.getElementById("t2").value;
+                var t3 = document.getElementById("t3").value;
+                var t4 = document.getElementById("t4").value;
+                var t5 = document.getElementById("t5").value;
+                var t6 = document.getElementById("t6").value;
+                var t7 = document.getElementById("t7").value;
+                var t8 = document.getElementById("t8").value;
+                var t9 = document.getElementById("t9").value;
+                var t10 = document.getElementById("t10").value;
+                var t11 = document.getElementById("t11").value;
+                var t12 = document.getElementById("t12").value;
+                var t13 = document.getElementById("t13").value;
+                var t14 = document.getElementById("t14").value;
+                var t15 = document.getElementById("t15").value;
+                var t16 = document.getElementById("t16").value;
+                var t17 = document.getElementById("t17").value;
+                var t18 = document.getElementById("t18").value;
+                var t19 = document.getElementById("t19").value;
+                var t20 = document.getElementById("t20").value;
+                var t21 = document.getElementById("t21").value;
+                var t22 = document.getElementById("t22").value;
+                var t23 = document.getElementById("t23").value;
+                var t24 = document.getElementById("t24").value;
+                var t25 = document.getElementById("t25").value;
+                var t26 = document.getElementById("t26").value;
+                var t27 = document.getElementById("t27").value;
+                var t28 = document.getElementById("t28").value;
+                var t29 = document.getElementById("t29").value;
+                var t30 = document.getElementById("t30").value;
+                var t31 = document.getElementById("t31").value;
+                var t32 = document.getElementById("t32").value;
+                var t33 = document.getElementById("t33").value;
+                var t34 = document.getElementById("t34").value;
+                var t35 = document.getElementById("t35").value;
+                var t36 = document.getElementById("t36").value;
+                var t37 = document.getElementById("t37").value;
+                var t38 = document.getElementById("t38").value;
+                var t39 = document.getElementById("t39").value;
+                var t40 = document.getElementById("t40").value;
+                var t41 = document.getElementById("t41").value;
+                var t42 = document.getElementById("t42").value;
+                var t43 = document.getElementById("t43").value;
+                var t44 = document.getElementById("t44").value;
+                var t45 = document.getElementById("t45").value;
+                var t46 = document.getElementById("t46").value;
+                var t47 = document.getElementById("t47").value;
+                var t48 = document.getElementById("t48").value;
+                var t49 = document.getElementById("t49").value;
+                var t50 = document.getElementById("t50").value;
+                var t51 = document.getElementById("t51").value;
+                var t52 = document.getElementById("t52").value;
+
+                if ((t16=="B" || t16=="b") && (t17=="Y" || t17=="y" ) && (t19=="E" || t19=="e") && ( t18=="T" || t18=="t"))
+                {
+                    score++;
+                }
+                if ((t2=="A" || t2=="a") && (t4=="L" || t4=="l" ) &&  (t6=="I" || t6=="i" ) && (t8=="C" || t8=="c" ) && (t19=="E" || t19=="e") && ( t22=="3"))
+                {
+                    score++;
+                }
+                if ((t8=="C" || t8=="c") && (t9=="A" || t9=="a") &&  (t10=="P" || t10=="p") && (t11=="S" || t11=="s")  && (t12=="L" || t12=="l") && ( t13=="O" || t13=="o") && (t14=="C" || t14=="c") && (t15=="K" || t15=="k"))
+                {
+                    score++;
+                }
+                if ((t1=="J" || t1=="j") && ( t3=="A" || t3=="a") &&  (t5=="V" || t5=="v" ) && (t7=="A" || t7=="a"  ) && (t11=="S" || t11=="s") && (t20=="C" || t20=="c") && (t24=="R" || t24=="r") && (t32=="I" || t32=="i") && (t36=="P" || t36=="p") && (t41=="T" || t41=="t"))
+                {
+                    score++;
+                }
+                if ((t23=="B" || t23=="b") && (t24=="R" || t24=="r") && (t25=="A" || t25=="a") && (t26=="I" || t26=="i")  && (t27=="N" || t27=="n" ) && (t28=="W" || t28=="w") && (t29=="A" || t29=="a") && (t30=="R" || t30=="r") && (t31=="E" || t31=="e"))
+                {
+                    score++;
+                }
+                if ((t35=="J" || t35=="j" )&& (t36=="P" || t36=="p" ) && (t37=="E" || t37=="e" )&&  (t38=="G" || t38=="g"))
+                {
+                    score++;
+                }
+                if ((t28=="W" || t28=="w" )&& (t33=="W" || t33=="w") && (t39=="W" || t39=="w") )
+                {
+                    score++;
+                }
+                if ((t21=="B" || t21=="b") && (t30=="R" || t30=="r") && (t34=="O" || t34=="o") && (t40=="W" || t40=="w")  && (t42=="S" || t42=="s") && (t44=="E" || t44=="e") && (t49=="R" || t49=="r"))
+                {
+                    score++;
+                }
+                if ((t45=="B" || t45=="b" )&& (t46=="I" || t46=="i" )&&  (t47=="N" || t47=="n") && (t48=="a" || t48=="a" ) && (t49=="R" || t49=="r") && (t50=="Y" || t50=="y" ))
+                {
+                    score++;
+                }
+                if ((t43=="D" || t43=="d" ) && (t45=="B" || t45=="b")  && (t51=="M" || t51=="m") && (t52=="S" || t52=="s"))
+                {
+                    score++;
+                }
+
+                document.getElementById("demo").innerHTML = "Score Anda = "+score*10;
+                }   
+        </script>
+        
+
+							<!--Firmannudin-->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
